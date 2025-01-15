@@ -1,0 +1,39 @@
+.flex-menu {display: flex; /*обычный блок div ставится flex-контейнером*/
+
+align-items: center; /*Выравнивание списка по центру*/
+
+flex-direction: column; /*flex-элементы выстраиваются в колонку*/
+
+border: 2px solid black;
+
+margin-bottom: 2px;}
+
+ul li {
+
+    display:inline-block; /* расположить пункты горизонтально */
+    
+    }
+
+.menu  {
+
+    vertical-align: bottom; /*выравнивание текущего элемента по нижней части элемента строки*/
+    
+    width: 212px; /*ширина кнопки*/
+    
+    height: 90px; /*высота кнопки*/
+    
+    padding: 0px; /*поля кнопки*/
+    
+    margin-top: 4px; /*отступ сверху*/
+    
+    margin-bottom: 4px; /*отступ снизу*/
+    
+    background-color: white; /*заливка кнопки*/
+    
+    border: 2px solid #C0C0C0; /*граница кнопки*/
+    
+    border-radius: 5px; /*скругление углов кнопок*/
+    
+    cursor: pointer; /*изменение курсора при наведении на кнопку*/
+    
+    }
